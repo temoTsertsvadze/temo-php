@@ -69,10 +69,6 @@
 
 <?php
 
-if(isset($_POST["submit"])){
-
-}
-
 $jeradi = 0;
 $jami = 0;
 $namravli = 1;
@@ -85,7 +81,6 @@ for($x = 0; $x < 4; $x++){
         $elementi = $masivi[$x][$j];
         if(($elementi % $ricxvi) == 0)
         echo $elementi.", ";
-        $jeradi++;
     }       
  }
 
