@@ -7,8 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-<?php 
-    ?>
+
     <form action="index.php" method="post">
     <input type = "text" name = "mail" placeholder = "e-mail"> <br>
     <input type = "password" name = "pwd" placeholder = "პაროლი"> <br>
