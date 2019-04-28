@@ -18,7 +18,7 @@
     );
 ?>
     <table border = "1" width = "500px">
-    <caption>4x4 რიცხვითი მატრიცა</caption>
+    <caption>6x5 რიცხვითი მატრიცა</caption>
     
     <tr>
     <td><?php echo $masivi[0] [0];?>
