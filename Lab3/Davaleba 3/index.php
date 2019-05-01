@@ -17,7 +17,7 @@ echo $_SESSION['rkodi'];
     <form action="form.php" method="post">
 
     <label>შეიტანეთ 5 ნიშნა კოდი:</label>
-    <input type="text" name="kodi"></input>
+    <input type="number" name="kodi"></input>
     <button type="submit" name="submit">გაგზავნა</button>
     
     </form>
