@@ -15,7 +15,6 @@
     function cxrili($a,$b, $M, $N){
         global $masivi;
      $masivi = array();
-     $keylength = 7;
     $str = "1234567890abcdefghijklmnopqrstuvwxyz";
     for($n = 0; $n < 100; $n++){
     $randStr = substr(str_shuffle($str), $a, $b);
