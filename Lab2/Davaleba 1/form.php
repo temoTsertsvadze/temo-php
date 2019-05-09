@@ -9,7 +9,10 @@
 <body>
 <?php
 
-$numbers = array(10, 15, 20, 25, 30, 40, 50, 60, 70, 80, 90, 100);
+$numbers =  array();
+   for($i=0; $i<12; $i++){
+       $masivi[$i]=rand(10, 100);
+   }
 $metia = 0;
 $naklebia = 0;
 $arrlength = count($numbers);
